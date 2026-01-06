@@ -1,0 +1,883 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+
+  <title>Politique de Confidentialité - Fast Slots Casino</title>
+  <meta name="description" content="Politique de confidentialité de Fast Slots Casino. Comment nous collectons, utilisons et protégeons vos données personnelles. Vos droits en matière de protection des données." />
+  <link rel="canonical" href="https://fast-slots-casino-online.com/privacy-policy.html" />
+  <meta name="robots" content="index,follow" />
+
+  <meta property="og:title" content="Politique de Confidentialité - Fast Slots Casino" />
+  <meta property="og:description" content="Politique de confidentialité et protection des données personnelles sur Fast Slots Casino." />
+  <meta property="og:url" content="https://fast-slots-casino-online.com/privacy-policy.html" />
+  <meta property="og:type" content="website" />
+  <meta name="theme-color" content="#6b2cff" />
+
+  <!-- Favicons -->
+  <link rel="icon" href="/images/favicon.png" type="image/png" />
+  <link rel="apple-touch-icon" href="/images/apple-touch-icon.png" />
+
+  <style>
+    :root{
+      --bg:#0b0a16;
+      --bg2:#0f1022;
+      --panel:#12102a;
+      --panel2:#17143a;
+      --text:#f3f4ff;
+      --muted:rgba(243,244,255,.72);
+      --line:rgba(255,255,255,.12);
+      --purple:#6b2cff;
+      --purple2:#8a4dff;
+      --pink:#ff3fd7;
+      --shadow:0 18px 60px rgba(0,0,0,.45);
+      --radius:18px;
+      --max:1180px;
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{
+      margin:0;
+      font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;
+      color:var(--text);
+      background:
+        radial-gradient(1100px 700px at 78% 18%, rgba(107,44,255,.22), rgba(0,0,0,0) 60%),
+        radial-gradient(900px 650px at 25% 70%, rgba(255,63,215,.14), rgba(0,0,0,0) 55%),
+        linear-gradient(180deg, var(--bg), #070713 60%, #060610);
+    }
+    a{color:inherit;text-decoration:none}
+    img{max-width:100%;display:block}
+
+    .wrap{display:flex; min-height:100%}
+
+    /* Sidebar - EXACT SAME AS MAIN PAGE */
+    .sidebar{
+      width:270px;
+      background:linear-gradient(180deg, rgba(18,16,42,.92), rgba(11,10,22,.98));
+      border-right:1px solid var(--line);
+      position:sticky; top:0; height:100vh;
+      padding:16px 14px;
+    }
+    .side-top{
+      display:flex; align-items:center; gap:10px;
+      padding:10px 10px;
+      border-radius:16px;
+      border:1px solid rgba(255,255,255,.10);
+      background:rgba(255,255,255,.03);
+    }
+    .brand-mark{
+      width:44px;height:44px;border-radius:14px;
+      display:grid;place-items:center;
+      background:linear-gradient(135deg, rgba(107,44,255,.85), rgba(255,63,215,.55));
+      border:1px solid rgba(255,255,255,.16);
+      box-shadow:0 10px 24px rgba(0,0,0,.35);
+      font-weight:900;
+    }
+    .brand-title{font-weight:1000; letter-spacing:.3px}
+    .brand-sub{font-size:12px; color:var(--muted); font-weight:800; margin-top:2px}
+    .side-nav{margin-top:12px; display:grid; gap:8px}
+    .side-nav a{
+      display:flex; align-items:center; gap:10px;
+      padding:10px 12px;
+      border-radius:14px;
+      border:1px solid transparent;
+      color:rgba(243,244,255,.88);
+      background:rgba(255,255,255,.02);
+    }
+    .side-nav a:hover{border-color:rgba(255,255,255,.14); background:rgba(255,255,255,.04)}
+    .ico{
+      width:18px;height:18px;border-radius:6px;
+      border:1px solid rgba(255,255,255,.14);
+      background:rgba(255,255,255,.05);
+      display:inline-block;
+    }
+    .side-sec{
+      margin-top:14px; padding-top:14px;
+      border-top:1px solid var(--line);
+    }
+    .side-h{
+      font-size:12px;
+      color:rgba(243,244,255,.62);
+      font-weight:1000;
+      letter-spacing:.25px;
+      padding:0 10px 8px;
+      text-transform:uppercase;
+    }
+
+    /* Main */
+    .main{flex:1}
+    .topbar{
+      position:sticky; top:0; z-index:50;
+      background:rgba(9,9,18,.65);
+      border-bottom:1px solid var(--line);
+      backdrop-filter: blur(10px);
+    }
+    .topbar-inner{
+      max-width:var(--max); margin:0 auto; padding:12px 16px;
+      display:flex; align-items:center; justify-content:space-between; gap:12px;
+    }
+    .top-left{
+      display:flex; align-items:center; gap:10px;
+      color:rgba(243,244,255,.85);
+      font-weight:900;
+    }
+    .pill{
+      padding:7px 10px; border-radius:999px;
+      border:1px solid rgba(255,255,255,.14);
+      background:rgba(255,255,255,.04);
+      font-size:12px;
+    }
+    .top-actions{display:flex; gap:10px; align-items:center}
+    .btn{
+      display:inline-flex; align-items:center; justify-content:center;
+      padding:10px 14px;
+      border-radius:12px;
+      border:1px solid rgba(255,255,255,.14);
+      background:rgba(255,255,255,.04);
+      color:var(--text);
+      font-weight:1000;
+      white-space:nowrap;
+      cursor:pointer;
+    }
+    .btn.primary{
+      background:linear-gradient(180deg, var(--purple), var(--purple2));
+      border-color:rgba(0,0,0,.30);
+      box-shadow:0 10px 24px rgba(107,44,255,.25);
+    }
+    .btn.ghost{background:transparent}
+
+    .container{max-width:var(--max); margin:0 auto; padding:18px 16px 30px}
+
+    /* Hero for Privacy Policy */
+    .hero{
+      border-radius:24px;
+      overflow:hidden;
+      border:1px solid rgba(255,255,255,.14);
+      box-shadow:var(--shadow);
+      background:
+        radial-gradient(800px 420px at 55% 20%, rgba(107,44,255,.35), rgba(0,0,0,0) 60%),
+        radial-gradient(700px 420px at 85% 55%, rgba(255,63,215,.18), rgba(0,0,0,0) 55%),
+        linear-gradient(180deg, rgba(18,16,42,.85), rgba(12,10,26,.92));
+      position:relative;
+      margin-bottom:24px;
+    }
+    .hero-inner{
+      padding:32px 32px 28px;
+      position:relative;
+      z-index:2;
+    }
+    .hero-kicker{
+      font-weight:1000; letter-spacing:.35px;
+      color:rgba(243,244,255,.82);
+      text-transform:uppercase;
+      font-size:12px;
+      margin-bottom:8px;
+    }
+    h1{
+      margin:0 0 12px;
+      font-size:36px; line-height:1.1;
+      letter-spacing:.2px;
+      font-weight:1100;
+    }
+    .hero-sub{
+      margin:0;
+      max-width:70ch;
+      color:rgba(243,244,255,.74);
+      line-height:1.6;
+      font-size:15px;
+    }
+    .update-info{
+      margin-top:16px;
+      font-size:13px;
+      color:rgba(243,244,255,.60);
+      display:flex;
+      align-items:center;
+      gap:8px;
+    }
+
+    /* Content Sections */
+    .sec{
+      margin-top:18px;
+      border-radius:20px;
+      border:1px solid rgba(255,255,255,.12);
+      background:rgba(255,255,255,.03);
+      box-shadow:var(--shadow);
+      overflow:hidden;
+    }
+    .sec .head{
+      padding:20px 24px 16px;
+      border-bottom:1px solid rgba(255,255,255,.10);
+      background:rgba(0,0,0,.15);
+    }
+    .sec h2{
+      margin:0;
+      font-size:20px;
+      font-weight:1100;
+      letter-spacing:.2px;
+      color:var(--purple2);
+    }
+    .sec .sub{
+      margin:8px 0 0;
+      color:rgba(243,244,255,.68);
+      font-size:14px;
+      line-height:1.5;
+      max-width:80ch;
+    }
+    .sec .body{
+      padding:24px;
+      line-height:1.7;
+    }
+    
+    /* Content Styling */
+    .content-text{
+      color:rgba(243,244,255,.74);
+      line-height:1.7;
+      font-size:15px;
+    }
+    .content-text p{
+      margin:0 0 20px;
+    }
+    .content-text ul,
+    .content-text ol{
+      margin:0 0 20px;
+      padding-left:24px;
+    }
+    .content-text li{
+      margin-bottom:10px;
+      color:rgba(243,244,255,.74);
+    }
+    .content-text strong{
+      color:var(--text);
+      font-weight:700;
+    }
+    
+    /* Table */
+    .data-table{
+      width:100%;
+      border-collapse:collapse;
+      margin:20px 0;
+      border-radius:12px;
+      overflow:hidden;
+      border:1px solid rgba(255,255,255,.12);
+    }
+    .data-table th{
+      background:rgba(107,44,255,.15);
+      padding:14px 16px;
+      text-align:left;
+      font-weight:1100;
+      color:var(--text);
+      border-bottom:1px solid rgba(255,255,255,.12);
+      font-size:14px;
+    }
+    .data-table td{
+      padding:14px 16px;
+      border-bottom:1px solid rgba(255,255,255,.08);
+      color:rgba(243,244,255,.74);
+      font-size:14px;
+    }
+    .data-table tr:last-child td{
+      border-bottom:none;
+    }
+    .data-table tr:hover{
+      background:rgba(255,255,255,.03);
+    }
+    
+    /* Highlight Box */
+    .highlight{
+      background:rgba(107,44,255,.08);
+      border-left:3px solid var(--purple);
+      padding:18px 20px;
+      margin:24px 0;
+      border-radius:0 12px 12px 0;
+    }
+    .highlight p{
+      margin:0;
+      color:var(--text);
+      font-size:14px;
+    }
+    
+    /* Navigation within page */
+    .page-nav{
+      margin:24px 0;
+      padding:16px 20px;
+      background:rgba(0,0,0,.2);
+      border-radius:16px;
+      border:1px solid rgba(255,255,255,.1);
+    }
+    .page-nav ul{
+      margin:0;
+      padding:0;
+      display:grid;
+      grid-template-columns:repeat(auto-fit, minmax(200px, 1fr));
+      gap:10px;
+    }
+    .page-nav li{
+      list-style:none;
+      margin:0;
+    }
+    .page-nav a{
+      display:block;
+      padding:10px 14px;
+      border-radius:12px;
+      border:1px solid rgba(255,255,255,.1);
+      background:rgba(255,255,255,.02);
+      color:rgba(243,244,255,.85);
+      font-size:14px;
+      transition:all 0.2s ease;
+    }
+    .page-nav a:hover{
+      background:rgba(107,44,255,.15);
+      border-color:rgba(107,44,255,.3);
+      transform:translateY(-2px);
+    }
+    
+    /* Footer */
+    footer{
+      margin-top:32px;
+      border-top:1px solid rgba(255,255,255,.10);
+      background:rgba(0,0,0,.22);
+    }
+    .foot{
+      max-width:var(--max); margin:0 auto; padding:20px 16px;
+      display:flex; align-items:flex-start; justify-content:space-between; gap:14px; flex-wrap:wrap;
+    }
+    .foot a{color:rgba(243,244,255,.80)}
+    .foot a:hover{text-decoration:underline}
+    .legal{display:flex; gap:10px; flex-wrap:wrap; font-size:13px; color:rgba(243,244,255,.65)}
+    
+    /* Footer logos section */
+    .footer-logos{
+      width:100%;
+      margin-top:20px;
+      padding-top:20px;
+      border-top:1px solid rgba(255,255,255,.10);
+    }
+    .footer-logos-container{
+      display:flex;
+      flex-wrap:wrap;
+      gap:25px;
+      justify-content:center;
+      align-items:center;
+    }
+    .footer-logo{
+      height:40px;
+      opacity:0.85;
+      transition:opacity 0.2s ease;
+    }
+    .footer-logo:hover{
+      opacity:1;
+    }
+    .responsible-gaming{
+      text-align:center;
+      margin-top:15px;
+      font-size:12px;
+      color:rgba(243,244,255,.5);
+    }
+    
+    /* Back button */
+    .back-link{
+      display:inline-flex;
+      align-items:center;
+      gap:6px;
+      padding:8px 14px;
+      background:rgba(255,255,255,.05);
+      border:1px solid rgba(255,255,255,.12);
+      border-radius:12px;
+      margin-bottom:16px;
+      font-size:14px;
+      transition:all 0.2s ease;
+    }
+    .back-link:hover{
+      background:rgba(107,44,255,.15);
+      transform:translateX(-4px);
+    }
+
+    /* Responsive */
+    @media (max-width: 980px){
+      .sidebar{display:none}
+      h1{font-size:32px}
+      .sec .body{padding:20px}
+      .page-nav ul{grid-template-columns:1fr}
+      .data-table{
+        display:block;
+        overflow-x:auto;
+      }
+    }
+    @media (max-width: 768px){
+      h1{font-size:28px}
+      .hero-inner{padding:24px 20px}
+      .sec .head{padding:16px 20px 12px}
+      .sec .body{padding:16px}
+      .footer-logos-container{gap:15px}
+      .footer-logo{height:30px}
+    }
+    @media (max-width: 480px){
+      .hero-inner{padding:20px 16px}
+      h1{font-size:24px}
+      .footer-logos-container{gap:10px}
+      .footer-logo{height:25px}
+    }
+  </style>
+
+  <!-- Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Politique de Confidentialité - Fast Slots Casino",
+    "description": "Politique de confidentialité de Fast Slots Casino concernant la collecte et le traitement des données personnelles.",
+    "url": "https://fast-slots-casino-online.com/privacy-policy.html",
+    "datePublished": "2024-01-01",
+    "dateModified": "2024-01-01",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Fast Slots Casino",
+      "url": "https://fast-slots-casino-online.com/"
+    }
+  }
+  </script>
+</head>
+
+<body>
+  <div class="wrap">
+    <!-- SIDEBAR - Same as main page -->
+    <aside class="sidebar" aria-label="Navigation latérale">
+      <div class="side-top">
+        <div class="brand-mark">777</div>
+        <div>
+          <div class="brand-title">FAST SLOTS CASINO</div>
+          <div class="brand-sub">Politique de Confidentialité</div>
+        </div>
+      </div>
+
+      <nav class="side-nav" aria-label="Menu">
+        <a href="/"><span class="ico"></span> Accueil Fast Slots Casino</a>
+        <a href="#section-introduction"><span class="ico"></span> Introduction</a>
+        <a href="#section-data-collection"><span class="ico"></span> Données collectées</a>
+        <a href="#section-data-usage"><span class="ico"></span> Utilisation des données</a>
+        <a href="#section-your-rights"><span class="ico"></span> Vos droits</a>
+        <a href="#section-contact"><span class="ico"></span> Contact DPO</a>
+
+        <div class="side-sec">
+          <div class="side-h">Pages légales</div>
+          <a href="/terms.html"><span class="ico"></span> Conditions d'utilisation</a>
+          <a href="/privacy-policy.html"><span class="ico"></span> Politique confidentialité</a>
+          <a href="/cookie-policy.html"><span class="ico"></span> Politique cookies</a>
+          <a href="/contact.html"><span class="ico"></span> Contact</a>
+        </div>
+      </nav>
+
+      <div class="side-sec">
+        <div style="padding:10px 12px;border:1px solid rgba(255,255,255,.12);border-radius:16px;background:rgba(255,255,255,.03);">
+          <div style="font-weight:1100;">Info Importante</div>
+          <div class="small" style="margin-top:6px;font-size:12px;color:rgba(243,244,255,.62);">
+            Cette politique s'applique à tous les services Fast Slots Casino.
+          </div>
+        </div>
+      </div>
+    </aside>
+
+    <main class="main">
+      <header class="topbar" role="banner">
+        <div class="topbar-inner">
+          <div class="top-left">
+            <span class="pill">Politique Confidentialité</span>
+            <span class="pill">RGPD Conforme</span>
+          </div>
+          <div class="top-actions">
+            <a class="btn ghost" href="/" aria-label="Retour à l'accueil">← Accueil</a>
+            <a class="btn" href="#section-contact">Contact DPO</a>
+            <a class="btn primary" href="#section-your-rights">Vos droits</a>
+          </div>
+        </div>
+      </header>
+
+      <div class="container">
+        <!-- Back button -->
+        <a href="/" class="back-link">
+          ← Retour à l'accueil Fast Slots Casino
+        </a>
+
+        <!-- HERO SECTION -->
+        <section class="hero" id="section-hero" aria-label="Politique de confidentialité">
+          <div class="hero-inner">
+            <div class="hero-kicker">Protection des données • RGPD</div>
+            
+            <h1 id="privacy-policy-title">Politique de Confidentialité</h1>
+            
+            <p class="hero-sub">
+              Cette politique décrit comment Fast Slots Casino collecte, utilise, protège et partage vos données personnelles. 
+              Elle explique également vos droits en matière de protection des données conformément au Règlement Général sur 
+              la Protection des Données (RGPD) et aux lois applicables.
+            </p>
+            
+            <div class="update-info">
+              <span>📅 Dernière mise à jour : <strong id="current-date"></strong></span>
+              <span>👁️‍🗨️ Version : 2.1</span>
+            </div>
+          </div>
+        </section>
+
+        <!-- QUICK NAVIGATION -->
+        <div class="page-nav">
+          <ul>
+            <li><a href="#section-introduction">1. Introduction</a></li>
+            <li><a href="#section-data-collection">2. Données collectées</a></li>
+            <li><a href="#section-data-usage">3. Utilisation des données</a></li>
+            <li><a href="#section-data-sharing">4. Partage des données</a></li>
+            <li><a href="#section-data-security">5. Sécurité des données</a></li>
+            <li><a href="#section-your-rights">6. Vos droits</a></li>
+            <li><a href="#section-contact">7. Contact</a></li>
+          </ul>
+        </div>
+
+        <!-- INTRODUCTION -->
+        <section class="sec" id="section-introduction" aria-label="Introduction">
+          <div class="head">
+            <h2 id="introduction-title">1. Introduction</h2>
+            <p class="sub">Vie privée et protection de vos données personnelles</p>
+          </div>
+          <div class="body">
+            <div class="content-text">
+              <p>
+                Chez <strong>Fast Slots Casino</strong>, la protection de votre vie privée et de vos données personnelles 
+                est une priorité absolue. Cette politique de confidentialité s'applique à tous les services fournis par 
+                Fast Slots Casino, y compris notre site web, notre application mobile et nos autres services en ligne.
+              </p>
+              
+              <p>
+                Nous nous engageons à traiter vos données personnelles de manière transparente, sécurisée et conformément 
+                au <strong>Règlement Général sur la Protection des Données (RGPD)</strong> et aux autres lois applicables 
+                sur la protection des données.
+              </p>
+              
+              <div class="highlight">
+                <p>
+                  <strong>Important :</strong> En utilisant nos services, vous acceptez les termes de cette politique 
+                  de confidentialité. Si vous n'êtes pas d'accord avec cette politique, veuillez ne pas utiliser nos services.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- DATA COLLECTION -->
+        <section class="sec" id="section-data-collection" aria-label="Données collectées">
+          <div class="head">
+            <h2 id="data-collection-title">2. Données que nous collectons</h2>
+            <p class="sub">Types de données personnelles collectées</p>
+          </div>
+          <div class="body">
+            <div class="content-text">
+              <h3 style="margin-top:0;color:var(--text);font-size:16px;">2.1 Données fournies directement par vous</h3>
+              <ul>
+                <li><strong>Informations d'identification :</strong> Nom, prénom, date de naissance</li>
+                <li><strong>Coordonnées :</strong> Adresse email, numéro de téléphone, adresse postale</li>
+                <li><strong>Informations de compte :</strong> Nom d'utilisateur, mot de passe, préférences</li>
+                <li><strong>Informations financières :</strong> Données de paiement, historique des transactions</li>
+                <li><strong>Documents de vérification :</strong> Pièce d'identité, justificatif de domicile</li>
+              </ul>
+              
+              <h3 style="color:var(--text);font-size:16px;">2.2 Données collectées automatiquement</h3>
+              <ul>
+                <li><strong>Données techniques :</strong> Adresse IP, type de navigateur, système d'exploitation</li>
+                <li><strong>Données d'utilisation :</strong> Pages visitées, durée des sessions, actions effectuées</li>
+                <li><strong>Données de localisation :</strong> Pays, région (approximative)</li>
+                <li><strong>Données d'appareil :</strong> Modèle d'appareil, identifiants uniques</li>
+              </ul>
+              
+              <div class="highlight">
+                <p>
+                  <strong>Note :</strong> Nous ne collectons jamais de données sensibles (origine raciale, opinions politiques, 
+                  croyances religieuses, santé, orientation sexuelle) sans votre consentement explicite et préalable.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- DATA USAGE -->
+        <section class="sec" id="section-data-usage" aria-label="Utilisation des données">
+          <div class="head">
+            <h2 id="data-usage-title">3. Utilisation de vos données</h2>
+            <p class="sub">Finalités du traitement de vos données personnelles</p>
+          </div>
+          <div class="body">
+            <div class="content-text">
+              <p>
+                Nous utilisons vos données personnelles pour les finalités suivantes, conformément aux bases légales 
+                prévues par le RGPD :
+              </p>
+              
+              <table class="data-table">
+                <thead>
+                  <tr>
+                    <th>Finalité</th>
+                    <th>Données utilisées</th>
+                    <th>Base légale</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Création et gestion de votre compte</td>
+                    <td>Identité, coordonnées</td>
+                    <td>Exécution du contrat</td>
+                  </tr>
+                  <tr>
+                    <td>Vérification de votre identité et âge</td>
+                    <td>Documents d'identité</td>
+                    <td>Obligation légale</td>
+                  </tr>
+                  <tr>
+                    <td>Traitement des transactions financières</td>
+                    <td>Données bancaires</td>
+                    <td>Exécution du contrat</td>
+                  </tr>
+                  <tr>
+                    <td>Prévention de la fraude et sécurité</td>
+                    <td>Adresse IP, comportement</td>
+                    <td>Intérêt légitime</td>
+                  </tr>
+                  <tr>
+                    <td>Support client et assistance</td>
+                    <td>Coordonnées, historique</td>
+                    <td>Intérêt légitime</td>
+                  </tr>
+                  <tr>
+                    <td>Amélioration de nos services</td>
+                    <td>Données d'utilisation</td>
+                    <td>Intérêt légitime</td>
+                  </tr>
+                  <tr>
+                    <td>Marketing (avec consentement)</td>
+                    <td>Email, préférences</td>
+                    <td>Consentement</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </section>
+
+        <!-- DATA SHARING -->
+        <section class="sec" id="section-data-sharing" aria-label="Partage des données">
+          <div class="head">
+            <h2 id="data-sharing-title">4. Partage de vos données</h2>
+            <p class="sub">Avec qui nous partageons vos informations</p>
+          </div>
+          <div class="body">
+            <div class="content-text">
+              <p>
+                Nous pouvons partager vos données personnelles avec les catégories de destinataires suivants :
+              </p>
+              
+              <ul>
+                <li><strong>Prestataires de services :</strong> Processeurs de paiement sécurisés, services d'hébergement, services de support client</li>
+                <li><strong>Autorités réglementaires :</strong> Conformément à nos obligations légales et réglementaires</li>
+                <li><strong>Partenaires techniques :</strong> Pour la maintenance, le développement et l'amélioration de nos services</li>
+                <li><strong>Services de vérification :</strong> Pour la validation d'identité et la vérification de l'âge</li>
+              </ul>
+              
+              <p>
+                Tous nos partenaires sont contractuellement tenus de protéger vos données conformément à cette politique 
+                et aux lois applicables sur la protection des données. Nous ne vendons jamais vos données personnelles 
+                à des tiers à des fins commerciales.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <!-- DATA SECURITY -->
+        <section class="sec" id="section-data-security" aria-label="Sécurité des données">
+          <div class="head">
+            <h2 id="data-security-title">5. Sécurité des données</h2>
+            <p class="sub">Comment nous protégeons vos informations</p>
+          </div>
+          <div class="body">
+            <div class="content-text">
+              <p>
+                Nous mettons en œuvre des mesures de sécurité techniques et organisationnelles robustes pour protéger 
+                vos données personnelles contre tout accès non autorisé, modification, divulgation ou destruction :
+              </p>
+              
+              <ul>
+                <li><strong>Chiffrement :</strong> Données transmises via connexions sécurisées SSL/TLS 256-bit</li>
+                <li><strong>Stockage sécurisé :</strong> Serveurs protégés avec contrôles d'accès stricts et surveillance 24/7</li>
+                <li><strong>Authentification forte :</strong> Authentification à deux facteurs disponible pour votre compte</li>
+                <li><strong>Audits réguliers :</strong> Tests de sécurité et audits de conformité périodiques</li>
+                <li><strong>Formation du personnel :</strong> Tous les employés formés à la protection des données et à la confidentialité</li>
+                <li><strong>Sauvegardes :</strong> Systèmes de sauvegarde réguliers et sécurisés</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <!-- YOUR RIGHTS -->
+        <section class="sec" id="section-your-rights" aria-label="Vos droits">
+          <div class="head">
+            <h2 id="your-rights-title">6. Vos droits en matière de protection des données</h2>
+            <p class="sub">Droits dont vous disposez concernant vos données personnelles</p>
+          </div>
+          <div class="body">
+            <div class="content-text">
+              <p>
+                Conformément au RGPD, vous disposez des droits suivants concernant vos données personnelles :
+              </p>
+              
+              <ul>
+                <li><strong>Droit d'accès :</strong> Obtenir une copie des données personnelles que nous détenons sur vous</li>
+                <li><strong>Droit de rectification :</strong> Demander la correction de données inexactes ou incomplètes</li>
+                <li><strong>Droit à l'effacement :</strong> Demander la suppression de vos données personnelles dans certaines situations</li>
+                <li><strong>Droit à la limitation du traitement :</strong> Limiter le traitement de vos données dans certaines circonstances</li>
+                <li><strong>Droit d'opposition :</strong> Vous opposer au traitement de vos données pour des raisons légitimes</li>
+                <li><strong>Droit à la portabilité des données :</strong> Recevoir vos données dans un format structuré et lisible par machine</li>
+                <li><strong>Droit de retirer votre consentement :</strong> Retirer votre consentement à tout moment pour les traitements basés sur le consentement</li>
+              </ul>
+              
+              <p>
+                Pour exercer ces droits, vous pouvez nous contacter à l'adresse indiquée dans la section "Contact" ci-dessous. 
+                Nous répondrons à votre demande dans un délai d'un mois, conformément au RGPD.
+              </p>
+              
+              <div class="highlight">
+                <p>
+                  <strong>Important :</strong> Vous avez également le droit d'introduire une réclamation auprès de l'autorité 
+                  de protection des données compétente. En France, il s'agit de la Commission Nationale de l'Informatique et 
+                  des Libertés (CNIL).
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- CONTACT -->
+        <section class="sec" id="section-contact" aria-label="Contact">
+          <div class="head">
+            <h2 id="contact-title">7. Contact et Délégué à la Protection des Données</h2>
+            <p class="sub">Comment nous contacter pour toute question relative à la protection des données</p>
+          </div>
+          <div class="body">
+            <div class="content-text">
+              <p>
+                Pour toute question concernant cette politique de confidentialité ou l'exercice de vos droits, 
+                vous pouvez contacter notre Délégué à la Protection des Données (DPO) :
+              </p>
+              
+              <ul>
+                <li><strong>Email du DPO :</strong> <a href="mailto:dpo@fast-slots-casino-online.com" style="color:var(--purple2);">dpo@fast-slots-casino-online.com</a></li>
+                <li><strong>Email général :</strong> <a href="mailto:privacy@fast-slots-casino-online.com" style="color:var(--purple2);">privacy@fast-slots-casino-online.com</a></li>
+                <li><strong>Adresse postale :</strong> Service Protection des Données, Fast Slots Casino, BP 12345, 75001 Paris, France</li>
+              </ul>
+              
+              <p>
+                Notre DPO est votre point de contact principal pour toutes les questions relatives à la protection 
+                de vos données personnelles et à l'exercice de vos droits.
+              </p>
+              
+              <div class="highlight">
+                <p>
+                  <strong>Note finale :</strong> Cette politique de confidentialité est régulièrement révisée et mise à jour 
+                  pour refléter les changements dans nos pratiques de traitement des données et les évolutions légales. 
+                  Nous vous encourageons à consulter régulièrement cette page pour rester informé.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <!-- FOOTER - Same as main page -->
+      <footer>
+        <div class="foot">
+          <div>
+            <div style="font-weight:1100;">© <span id="current-year"></span> fast-slots-casino-online.com</div>
+            <div class="small" style="margin-top:6px;">
+              Politique de confidentialité • Fast Slots Casino • RGPD Conforme
+            </div>
+            <div class="legal" style="margin-top:10px;">
+              <a href="/">Accueil</a><span style="opacity:.5">•</span>
+              <a href="/terms.html">Conditions d'utilisation</a><span style="opacity:.5">•</span>
+              <a href="/privacy-policy.html">Politique de confidentialité</a><span style="opacity:.5">•</span>
+              <a href="/cookie-policy.html">Politique cookies</a><span style="opacity:.5">•</span>
+              <a href="/responsible-gaming.html" style="opacity:1;color:#00c853;">Jeu responsable</a><span style="opacity:.5">•</span>
+              <a href="/contact.html">Contact</a>
+            </div>
+          </div>
+          
+          <!-- Logos Section -->
+          <div class="footer-logos">
+            <div class="footer-logos-container">
+              <img src="/images/footer-18plus.png" alt="18+ - Jeu réservé aux majeurs - Interdit aux mineurs" class="footer-logo" onerror="this.style.display='none'">
+              <img src="/images/footer-begambleaware.png" alt="BeGambleAware - Jouez de manière responsable - Organisation pour le jeu responsable" class="footer-logo" onerror="this.style.display='none'">
+              <img src="/images/footer-betblocker.png" alt="BetBlocker - Logiciel de blocage des sites de jeu - Contrôle parental" class="footer-logo" onerror="this.style.display='none'">
+              <img src="/images/footer-gamban.png" alt="Gamban - Application de limitation de jeu - Outil d'autorégulation" class="footer-logo" onerror="this.style.display='none'">
+              <img src="/images/footer-gamcare.png" alt="GamCare - Aide et soutien pour le jeu problématique - Association d'aide aux joueurs" class="footer-logo" onerror="this.style.display='none'">
+            </div>
+            <div class="responsible-gaming">
+              Jeu responsable : jouez de manière responsable. Si vous pensez avoir un problème avec le jeu, visitez <a href="https://www.gamblingtherapy.org" style="color:rgba(243,244,255,.7)">GamblingTherapy.org</a> ou appelez le 09 74 75 13 13 (appel non surtaxé).
+            </div>
+          </div>
+        </div>
+      </footer>
+
+      <script>
+        // Set current date
+        const now = new Date();
+        const options = { year: 'numeric', month: 'long', day: 'numeric' };
+        const formattedDate = now.toLocaleDateString('fr-FR', options);
+        
+        document.getElementById('current-date').textContent = formattedDate;
+        document.getElementById('current-year').textContent = now.getFullYear();
+        
+        // Add smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+          anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+            const targetId = this.getAttribute('href');
+            if(targetId === '#') return;
+            
+            const targetElement = document.querySelector(targetId);
+            if(targetElement) {
+              window.scrollTo({
+                top: targetElement.offsetTop - 100,
+                behavior: 'smooth'
+              });
+            }
+          });
+        });
+        
+        // Highlight active nav link
+        const sidebarLinks = document.querySelectorAll('.side-nav a');
+        const pageSections = document.querySelectorAll('.sec');
+        
+        window.addEventListener('scroll', () => {
+          let current = '';
+          const scrollPosition = window.scrollY + 150;
+          
+          pageSections.forEach(section => {
+            const sectionTop = section.offsetTop;
+            const sectionHeight = section.clientHeight;
+            
+            if(scrollPosition >= sectionTop && scrollPosition < sectionTop + sectionHeight) {
+              current = section.getAttribute('id');
+            }
+          });
+          
+          sidebarLinks.forEach(link => {
+            link.classList.remove('active');
+            if(link.getAttribute('href') === `#${current}`) {
+              link.classList.add('active');
+              link.style.background = 'rgba(107,44,255,.15)';
+              link.style.borderColor = 'rgba(107,44,255,.3)';
+            } else {
+              link.style.background = '';
+              link.style.borderColor = '';
+            }
+          });
+        });
+      </script>
+    </main>
+  </div>
+</body>
+</html>
