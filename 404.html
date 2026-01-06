@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Page non trouvée - Fast Slots Casino</title>
+    <meta name="description" content="La page que vous recherchez n'existe pas. Retournez à la page d'accueil de Fast Slots Casino.">
+    <link rel="canonical" href="https://fast-slots-casino-online.com/" />
+    
+    <!-- Копируем стили из основного сайта -->
+    <style>
+        :root{
+            --bg:#0b0a16;
+            --bg2:#0f1022;
+            --text:#f3f4ff;
+            --purple:#6b2cff;
+            --purple2:#8a4dff;
+            --pink:#ff3fd7;
+            --muted:rgba(243,244,255,.72);
+        }
+        *{box-sizing:border-box; margin:0; padding:0}
+        body{
+            font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;
+            color:var(--text);
+            background:
+                radial-gradient(1100px 700px at 78% 18%, rgba(107,44,255,.22), rgba(0,0,0,0) 60%),
+                radial-gradient(900px 650px at 25% 70%, rgba(255,63,215,.14), rgba(0,0,0,0) 55%),
+                linear-gradient(180deg, var(--bg), #070713 60%, #060610);
+            min-height:100vh;
+            display:flex;
+            align-items:center;
+            justify-content:center;
+            padding:20px;
+        }
+        .container{
+            max-width:600px;
+            width:100%;
+            text-align:center;
+            padding:40px 30px;
+            border-radius:24px;
+            border:1px solid rgba(255,255,255,.14);
+            background:rgba(18,16,42,.85);
+            backdrop-filter:blur(10px);
+            box-shadow:0 18px 60px rgba(0,0,0,.45);
+        }
+        .error-code{
+            font-size:120px;
+            font-weight:1100;
+            background:linear-gradient(135deg, var(--purple), var(--pink));
+            -webkit-background-clip:text;
+            background-clip:text;
+            color:transparent;
+            line-height:1;
+            margin-bottom:20px;
+        }
+        h1{
+            font-size:32px;
+            font-weight:1100;
+            margin-bottom:15px;
+            letter-spacing:.5px;
+        }
+        p{
+            color:var(--muted);
+            line-height:1.6;
+            margin-bottom:25px;
+            font-size:16px;
+        }
+        .btn{
+            display:inline-flex;
+            align-items:center;
+            justify-content:center;
+            padding:14px 28px;
+            border-radius:12px;
+            background:linear-gradient(180deg, var(--purple), var(--purple2));
+            color:var(--text);
+            font-weight:1000;
+            text-decoration:none;
+            border:1px solid rgba(0,0,0,.30);
+            box-shadow:0 10px 24px rgba(107,44,255,.25);
+            transition:transform 0.2s, box-shadow 0.2s;
+            margin-top:10px;
+        }
+        .btn:hover{
+            transform:translateY(-2px);
+            box-shadow:0 14px 30px rgba(107,44,255,.35);
+        }
+        .links{
+            margin-top:30px;
+            display:flex;
+            flex-wrap:wrap;
+            gap:15px;
+            justify-content:center;
+        }
+        .links a{
+            color:rgba(243,244,255,.80);
+            text-decoration:none;
+            font-size:14px;
+            padding:8px 12px;
+            border-radius:8px;
+            border:1px solid rgba(255,255,255,.10);
+            background:rgba(255,255,255,.03);
+            transition:all 0.2s;
+        }
+        .links a:hover{
+            background:rgba(255,255,255,.06);
+            border-color:rgba(255,255,255,.18);
+        }
+        .logo{
+            font-size:24px;
+            font-weight:1100;
+            color:var(--text);
+            margin-bottom:30px;
+            display:inline-block;
+            letter-spacing:.5px;
+        }
+        @media (max-width: 768px){
+            .error-code{font-size:80px}
+            h1{font-size:24px}
+            .container{padding:30px 20px}
+        }
+    </style>
+    
+    <!-- Schema для 404 страницы -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Page non trouvée - Fast Slots Casino",
+      "description": "La page que vous recherchez n'existe pas.",
+      "url": "https://fast-slots-casino-online.com/404.html",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://fast-slots-casino-online.com/"
+      }
+    }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">FAST SLOTS CASINO</div>
+        <div class="error-code">404</div>
+        <h1>Page non trouvée</h1>
+        <p>La page que vous recherchez n'existe pas ou a été déplacée. Retournez à la page d'accueil pour découvrir Fast Slots Casino, ses machines à sous rapides, retraits instantanés et bonus exclusifs.</p>
+        <a href="/" class="btn">Retour à l'accueil</a>
+        
+        <div class="links">
+            <a href="/#section-avis">Avis Fast Slots Casino</a>
+            <a href="/#section-bonus">Bonus sans Dépôt</a>
+            <a href="/#section-inscription">Inscription</a>
+            <a href="/#section-faq">FAQ</a>
+        </div>
+    </div>
+    
+    <script>
+    // Отслеживание 404 ошибок (если есть Google Analytics)
+    if(typeof gtag !== 'undefined') {
+        gtag('event', '404_error', {
+            'event_category': 'Error',
+            'event_label': window.location.pathname,
+            'non_interaction': true
+        });
+    }
+    
+    // Автоматический редирект на главную через 10 секунд (опционально)
+    setTimeout(function() {
+        window.location.href = "/";
+    }, 10000);
+    </script>
+</body>
+</html>
